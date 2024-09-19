@@ -490,9 +490,6 @@ class FrameToMp4(QtWidgets.QMainWindow):
 
 
 if __name__ == '__main__':
-    # get_frames(os.getcwd())
-    # seq = filename_to_sequence('fire blood 002.jpt')
-    # print(seq)
     app = QtWidgets.QApplication(sys.argv)
 
     window = FrameToMp4()
